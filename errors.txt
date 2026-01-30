@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 68: expected 'simple_expression' not found.
-    scene 1 with with ease
-                 ^
+File "game/script.rpy", line 56: choice menuitem expects a non-empty block.
+    "Yeah!":
+            ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Sat Jan  3 17:27:40 2026
+Fri Jan 30 13:56:37 2026

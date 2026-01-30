@@ -1,33 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 143, in script
-    show lucas normal at smallright with moveright
-  File "game/script.rpy", line 143, in <module>
-    show lucas normal at smallright with moveright
-                                         ^^^^^^^^^
-NameError: name 'moveright' is not defined. Did you mean: '_moveright'?
+  File "game/script.rpy", line 260, in script
+    show lucas heart at extramallright
+  File "game/script.rpy", line 260, in <module>
+    show lucas heart at extramallright
+                        ^^^^^^^^^^^^^^
+NameError: name 'extramallright' is not defined. Did you mean: 'extrasmallright'?
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 143, in script
-    show lucas normal at smallright with moveright
-  File "renpy/ast.py", line 1577, in execute
-    paired = renpy.python.py_eval(self.paired)
-             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "game/script.rpy", line 260, in script
+    show lucas heart at extramallright
+  File "renpy/ast.py", line 1357, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ast.py", line 726, in show_imspec
+    at_list = [renpy.python.py_eval(i) for i in at_list]
+               ~~~~~~~~~~~~~~~~~~~~^^^                  
   File "renpy/python.py", line 1292, in py_eval
     return py_eval_bytecode(code, globals, locals)
            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
   File "renpy/python.py", line 1285, in py_eval_bytecode
     return eval(bytecode, globals, locals)
            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "game/script.rpy", line 143, in <module>
-    show lucas normal at smallright with moveright
-                                         ^^^^^^^^^
-NameError: name 'moveright' is not defined. Did you mean: '_moveright'?
+  File "game/script.rpy", line 260, in <module>
+    show lucas heart at extramallright
+                        ^^^^^^^^^^^^^^
+NameError: name 'extramallright' is not defined. Did you mean: 'extrasmallright'?
 
 macOS-15.7.3-arm64-arm-64bit arm64
 Ren'Py 8.4.1.25072401
 Happy Birthday Lucas 1.0
-Tue Jan 20 17:29:58 2026
+Fri Jan 30 13:15:48 2026
