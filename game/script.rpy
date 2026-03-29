@@ -55,8 +55,14 @@ label start:
     menu:
         "Yeah!":
             jump Yeah
+        "Of course!":
+            jump Yeah
+        "Random person? I think you should ask for my name first...":
+            jump Yeah
     
     label Yeah:
+        show felisha glad
+        f "Yay! Thanks for your help! And you're right. Your name please?"
         show felisha scared
         f "But... I suck at making cards..."
         show felisha believe
