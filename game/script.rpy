@@ -63,6 +63,7 @@ label start:
     label Yeah:
         show felisha glad
         f "Yay! Thanks for your help! And you're right. Your name please?"
+        
         show felisha scared
         f "But... I suck at making cards..."
         show felisha believe
@@ -167,7 +168,7 @@ label start:
         with dissolve
         f "Ummm... Good point... Let's do it then!"
         f "But please help me, Isla!"
-        show isla silme at smallright 
+        show isla smile at smallright 
         with dissolve
         play sound "chuckle.mp3"
         I "Of course I will!"
@@ -217,23 +218,23 @@ label start:
         f "After all, nothing and no one in this world is {b}perfect{/b}!"
         show felisha glad at smallleft 
         with dissolve
-        f "You are my precious little brother, but sometimes you ncan be a bit lazy and not as hardworking with your studies as you should be."
+        f "You are my precious little brother, but sometimes you can be a bit lazy and not as hardworking with your studies as you should be."
         show lucas embarrassed at extrasmallright 
         with dissolve
         show felisha believe at smallleft 
         with dissolve
         f "I'm saying this honestly because I worry about you..."
-        f "I'm afraid you might lise your way, so I get anxious -- and sometimes I even scold you harshly..."
+        f "I'm afraid you might lose your way, so I get anxious -- and sometimes I even scold you harshly..."
         show felisha glad at smallleft 
         with dissolve
         f "But you need to know this: {i}I love you{/i}."
         show lucas heart at extrasmallright 
         with dissolve
         f "I made this birthday card for you by hand."
-        f "And even though it isn't perfect, it's just like you -- inperfect, but cute..."
+        f "And even though it isn't perfect, it's just like you -- imperfect, but cute..."
         show felisha confident at smallleft 
         with dissolve
-        f "I wish you a ver happy birday, my brother."
+        f "I wish you a very happy birthday, my brother."
         f "Please always try your best to grow and improve!"
         show lucas pleasant at extrasmallright 
         with dissolve
@@ -242,14 +243,14 @@ label start:
         show lucas heart at extrasmallright 
         with dissolve
         l "So... thank you, Felisha..."
-        l "Your handmmade birthday card is honestly all I could ever ask for."
+        l "Your handmade birthday card is honestly all I could ever ask for."
         l "The time, effort, and love you put into it mean more to me than any gift ever could..."
-        l "It truly made day and reminded me how lucky I am to have you in my life..."
+        l "It truly made my day and reminded me how lucky I am to have you in my life..."
         play music "happy-birthday-368842.mp3" fadein 2.0
         show lucas pleasant at extrasmallright 
         with dissolve
         l "So come on over -- let's slow things down and celebrate properly."
-        l "We'll laugh, talk, and enjoy some if your favorite desserts and drinks together!"
+        l "We'll laugh, talk, and enjoy some of your favorite desserts and drinks together!"
         show lucas normal at extrasmallright 
         with dissolve
         l "No rush, no pressure -- just a simple, happy moment shared between us..."
@@ -294,10 +295,10 @@ label start:
         l "?"
         f "Gosh, you dummy!"
         f "You already forgot the speech and stuff?!"
-        f "Why would I waste my precious time and heart energy writting it all down?"
+        f "Why would I waste my precious time and heart energy writing it all down?"
         l "Ahhhhh, sis... I knew it..."
         f "But either way, you should have already received what I wanted to say."
-        f "So be good, bro (˘ ᵕ˘)ˆᵕ ˆς)"
+        f "So be good, bro :3"
         f "And..."
         show felisha confident at smallleft
         with moveinright
