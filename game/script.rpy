@@ -87,6 +87,8 @@ label start:
     menu:
         "Text Isla!":
             jump text
+        "OMG why are you wasting time? Just go find her in the pet shop! She works there remember?":
+            jump go
 
     label text:
         scene 1 with blinds
@@ -101,6 +103,7 @@ label start:
         show felisha glad at smallleft 
         with moveinright
         f "Yeah! Isla's agreed to help me!"
+    label go:
         f "Off to her pet shop I go!"
         scene room
         with fade
@@ -111,7 +114,7 @@ label start:
         play sound "hello-278029.mp3" volume 5.5
         f "Hello!"
         show isla normal at smallright
-        with dissolve
+        with moveinright
         play sound "why-hello-there-103596.mp3" volume 5.5
         I "Why hello there!"
         show isla hap at smallright

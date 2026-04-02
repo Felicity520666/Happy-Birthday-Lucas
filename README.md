@@ -23,7 +23,7 @@ You join Felisha as she:
 
 - **Felisha** - Lucas' older sister, energetic and caring
 - **Lucas** - the birthday boy
-- **Isla** - Felisha's best friend who guides the card-making process
+- **Isla** - Felisha's artistic best friend who guides the card-making process
 
 ## Core Themes
 
