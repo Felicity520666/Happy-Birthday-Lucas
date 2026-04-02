@@ -63,7 +63,15 @@ label start:
     label Yeah:
         show felisha glad
         f "Yay! Thanks for your help! And you're right. Your name please?"
-        
+        $ povname = renpy.input("Hihi! What's your name?", length = 32)
+        $ povname = povname.strip()
+        if not povname:
+            $ povname = "Jordan"
+            show felisha yes
+            f "Hmm, don't want to tell me your name huh? Hehe I'll cal you Jordan then!"
+        show felisha yes
+        f "Thanks for being by my side, [povname]!"
+        f "This is very important to both me and Lucas."
         show felisha scared
         f "But... I suck at making cards..."
         show felisha believe
