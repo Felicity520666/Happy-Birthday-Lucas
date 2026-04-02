@@ -68,7 +68,7 @@ label start:
         if not povname:
             $ povname = "Jordan"
             show felisha yes
-            f "Hmm, don't want to tell me your name huh? Hehe I'll cal you Jordan then!"
+            f "Hmm, don't want to tell me your name huh? Hehe I'll call you Jordan then!"
         show felisha yes
         f "Thanks for being by my side, [povname]!"
         f "This is very important to both me and Lucas."
