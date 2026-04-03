@@ -5,7 +5,7 @@ A (hopefully 🤞) heartwarming Ren'Py visual novel about siblings, friends, eff
 ## Play on itch.io
 
 - [Play the original version *Happy Birthday Lucas* on itch.io](https://felicity666.itch.io/happy-birthday-lucas)
-- [Play *A Birthday to Remember* (v2 of Happy Birthday Lucas) on itch.io](https://felicity666.itch.io/fudge-kingdom)
+- [Play *A Birthday to Remember* (v2 of Happy Birthday Lucas) on itch.io](https://felicity666.itch.io/a-birthday-to-remember-hopefully)
 
 ## About The Game
 
